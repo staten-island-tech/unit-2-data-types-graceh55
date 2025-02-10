@@ -37,10 +37,12 @@ else:
 """  """
 """ def number(answer, y): """
 
-def answer(x, y):
-answer = x % 2
-    if answer == 0:
+""" def answer(x, y):
+answer == x % 2
+if answer == 0:
         print("even")
     elif answer < 0:
-        print("odd")
+        print("odd") """
+
+
 
