@@ -33,11 +33,14 @@ elif temp == 68:
 else:
     print('cold') """
 
-print(4 % 2)
+""" print(4 % 2) """
+"""  """
+""" def number(answer, y): """
 
-def number(x % 2, y):
-    if x % 2 == 0:
+def answer(x, y):
+answer = x % 2
+    if answer == 0:
         print("even")
-    elif x % 2 < 0:
+    elif answer < 0:
         print("odd")
 
