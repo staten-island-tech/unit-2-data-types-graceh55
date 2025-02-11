@@ -44,5 +44,16 @@ if answer == 0:
     elif answer < 0:
         print("odd") """
 
+number = input("What number?")
+if number % 2 == 0:
+    print('even')
+else:
+    print('odd')
 
+
+
+""" elif x % 2 > 0:
+    print('odd')
+elif x % 2 < 0:
+    print('odd') """
 
