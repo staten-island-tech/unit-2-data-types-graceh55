@@ -52,7 +52,20 @@ else:
     print("odd") """
 
 """ CHALLENGE #2 """
-tip = input("How was the service")
+""" service = input("How was the service?")
+if service == "bad":
+    print("0%")
+elif service == "okay":
+    print("15%")
+elif service == "good":
+    print("20%")
+elif service == "super duper awesome!!":
+    print("25%")
+ """
+
+""" CHALLENGE #3 """
+mrwhalen = int(input("What is the number?"))
+if mrwhalen
 
 
 
