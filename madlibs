@@ -65,7 +65,18 @@ elif service == "super duper awesome!!":
 
 """ CHALLENGE #3 """
 mrwhalen = int(input("What is the number?"))
-if mrwhalen
 
 
+""" def find_factors(num):
+    factors = []
+    for i in range(1, num + 1):
+        if num % i == 0:
+            factors.append(i)
+    return factors
+ """
 
+
+# use a loop
+# divide number by i using modulo check if R == 0
+#if 0 add to list
+#after the loop print the list

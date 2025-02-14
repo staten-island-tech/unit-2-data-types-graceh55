@@ -29,16 +29,16 @@ def gamble(age, id):
     else:
         print("you're too young") """
 
-""" def gamble(age, id):
+def gamble(age, id):
     if age >= 21 and id == True:
         print("have fun")
     elif age >= 21 and id == False:
         print("You need Id verification")
     else:
-        print("you're too young") """
+        print("you're too young")
 
-raining = False        
+""" raining = False        
 if not raining == True:
         print("go for a walk")
 if raining == False:
-        print("go for a walk")
+        print("go for a walk") """
