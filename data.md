@@ -59,7 +59,7 @@ z = y[0]
 print(y)
 print(z)
 ```
-Here we can use the split function which allows for an parameter to be passed in. The parameter passed in will be used to split the string into a new list. By using an empty space we can break up our words into seperate elements. Since we know how to access elements in a list we can then store the first word as a seperate variable to be used later.
+Here we can use the split function which allows for an parameter to be passed in. The parameter passed in will be used to split the string into a new list. By using an empty space we can break up our words into seperate elements. Since we know how to access elements in a list we can then store the first word as a separate variable to be used later.
 
 # Challenge
 1. Using the "input" method in Python, ask a user to input a sentence. Then develop a function that accepts a the user input and will tell you how many words are in that string. First write out your plan in Pseudo-code using comments. Then craft the function. 
