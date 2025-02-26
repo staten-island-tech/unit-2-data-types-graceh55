@@ -1,0 +1,18 @@
+""" def skins(robux, cost, isAvailable):
+    if robux < 100 or isAvailable == False:
+        print("Janet Broke Gurl")
+    else:
+        print("") """
+
+text = input("alalalallala")
+
+if text == ("ts pmo"):
+        print("sybau")
+if text.count("t") > text.count("s"):
+        print("English")
+elif text.count("s") > text.count("t"):
+        print("French")
+elif text.count("t") == text.count("s"):
+        print("French")
+
+
