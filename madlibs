@@ -78,14 +78,15 @@ print(find_factors(15)) """
 #after the loop print the list """
 
 """ CHALLENGE #4 """
-x = True
-y = True
+""" x = True
+y = True """
 
 """ def GCF():
     if x == True and y == True:
         print("true") """
 
-def GCF(x,y):
-    x, y = abs(x), abs(y)
-    while y != 0:
-        x,y = y, x % y
+def gcf(a, b):
+    while b:
+        a, b = b, a % b
+    return a
+print(gcf(20, 30))
