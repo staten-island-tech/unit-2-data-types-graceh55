@@ -6,13 +6,12 @@
 
 text = input("alalalallala")
 
-if text == ("ts pmo"):
-        print("sybau")
-if text.count("t") > text.count("s"):
+
+if text.count("t") or text.count("T") > text.count("s") or text.count("S"):
         print("English")
-elif text.count("s") > text.count("t"):
+if text.count("s") or text.count("S") > text.count("t") or text.count("T") :
         print("French")
-elif text.count("t") == text.count("s"):
+if text.count("t")  or text.count("T") == text.count("s") or text.count("S"):
         print("French")
 
 
