@@ -15,12 +15,21 @@ if text.count("t")  or text.count("T") == text.count("s") or text.count("S"):
         print("French") """
 
 bank_balance = 500
-withdrawal = input("Enter amount to withdraw")
+
 
 while True:
-    if int(withdrawal) <= 500:
+    withdrawal = input("Enter amount to withdraw")
+    if withdrawal == "Exit":
+        print("go away brokie")
+        break
+    elif int(withdrawal) <= int(bank_balance):
         bank_balance = bank_balance - int(withdrawal)
         print(bank_balance)
-        break
+        
 
- elif:
+    elif int(withdrawal) > int(bank_balance):
+        print("Insufficient Funds")
+
+        
+
+        
