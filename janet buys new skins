@@ -16,7 +16,6 @@ if text.count("t")  or text.count("T") == text.count("s") or text.count("S"):
 
 bank_balance = 500
 
-
 while True:
     withdrawal = input("Enter amount to withdraw")
     if withdrawal == "Exit":
